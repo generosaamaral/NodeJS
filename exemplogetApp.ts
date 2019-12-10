@@ -1,19 +1,19 @@
-import { Carro } from './Carro'
+import { Carro } from './exemplosetget'
 
 let c1: Carro;
 c1 = new Carro();
 
-c1.setano(1998);
-c1.setplaca("ABC1234");
-c1.setmoedlo("Fuscão nervouso");
-c1.setcor("Azul");
-c1.setligado(False);
+c1.setAno(1998);
+c1.setPlaca("ABC1234");
+c1.setModelo("Fuscão nervouso");
+c1.setCor("Azul");
+c1.setLigado(false);
 
-console.log(c1.getano());
-console.log(c1.getplaca());
-console.log(c1.getmodelo());
-console.log(c1.getcor());
-console.log(c1.getligado());
+console.log(c1.getAno());
+console.log(c1.getPlaca());
+console.log(c1.getModelo());
+console.log(c1.getCor());
+console.log(c1.getLigado());
 
 
 c1.ligar();

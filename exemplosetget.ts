@@ -16,7 +16,7 @@ export class Carro {
     }
 
     public setAno(ano: number): void {
-      
+        this.ano = ano;
     }
     public getAno(): number {
         return this.ano
