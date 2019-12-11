@@ -1,0 +1,12 @@
+"use strict";
+exports.__esModule = true;
+var produtomeu_1 = require("./produtomeu");
+var p1;
+p1 = new produtomeu_1.produto(1, "anel", "anel de diamantes esmeralda", 100, 10, "www.meusite/fotodoanel.jpg");
+var p2;
+p2 = new produtomeu_1.produto(2, "batom", "batom nude", 30, 50, "www.meusite/fotodobatom.jpg");
+console.log(p1.getInfo());
+console.log(p2.getInfo());
+console.log("");
+console.log(p1);
+console.log(p2);
